@@ -169,7 +169,7 @@ const RegistrationForm = () => {
   console.log("Submitting data:", dataToSend);
 
   try {
-    const response = await fetch("http://localhost:8080/api/admins/register", {
+    const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/admins/register`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
