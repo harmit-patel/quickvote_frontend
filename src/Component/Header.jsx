@@ -14,7 +14,7 @@ const Header = () => {
             >
               <div className="relative">
                 <img
-                  src="QuickVote_logo.png"
+                  src="../../public/QuickVote_logo.png"
                   alt="QuickVote Logo"
                   className="h-8 w-13 drop-shadow-lg group-hover:drop-shadow-xl transition-all duration-300"
                 />
