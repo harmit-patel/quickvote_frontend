@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import superAdminImage from '../assets/user.png';
+import superAdminImage from '../Assets/user.png';
 
 // Import API functions
 import { 
