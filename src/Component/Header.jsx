@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -45,12 +46,12 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a
-                href="/login"
-                className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
-              >
+             <Link
+  to="/login"
+  className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+>
                 Login
-              </a>
+ </Link>             
             </li>
           </div>
         </ul>
