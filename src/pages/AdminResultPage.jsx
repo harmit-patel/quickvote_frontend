@@ -287,7 +287,7 @@ ${rec.details}
   return (
     <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-8 rounded-lg shadow-lg">
       <button 
-        onClick={() => window.location.href = '/admindashboard'} 
+        onClick={() => navigate('/admindashboard')} 
         className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 mb-4"
       >
         <ArrowLeft className="text-white" />
