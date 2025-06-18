@@ -1,6 +1,6 @@
 export const registerUser = async (userData) => {
   try {
-      const response = await fetch("${import.meta.env.VITE_BACKEND_URL}/api/admins/register", {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/admins/register`, {
           method: "POST",
           headers: {
               "Content-Type": "application/json",

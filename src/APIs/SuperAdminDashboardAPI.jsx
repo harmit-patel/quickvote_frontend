@@ -2,7 +2,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode";
 
 // Base URL for API calls
-const API_BASE_URL = "${import.meta.env.VITE_BACKEND_URL}/api";
+const API_BASE_URL = `${import.meta.env.VITE_BACKEND_URL}/api`;
 
 // Function to get JWT token from localStorage
 export const getToken = () => {

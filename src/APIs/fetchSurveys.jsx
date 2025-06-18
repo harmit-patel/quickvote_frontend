@@ -1,6 +1,6 @@
 export const fetchSurveysByAdmin = async (email, token, setAdmin, setCreatedSurveys) => { 
     try {
-        const response = await fetch("${import.meta.env.VITE_BACKEND_URL}/api/surveys/fetch-by-admin", {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/surveys/fetch-by-admin`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

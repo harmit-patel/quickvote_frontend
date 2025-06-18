@@ -75,7 +75,7 @@ export const fetchFixedDomainAPI = async () => {
   }
   
   try {
-    const response = await fetch("${import.meta.env.VITE_BACKEND_URL}/api/admins/getFixedDomain", {
+    const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/admins/getFixedDomain`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

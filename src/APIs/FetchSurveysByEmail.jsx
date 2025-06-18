@@ -16,7 +16,7 @@ export const fetchSurveysByEmail = async (email) => {
 
   try {
     const response = await axios.post(
-      '${import.meta.env.VITE_BACKEND_URL}/api/surveys/filter-by-email',
+      `${import.meta.env.VITE_BACKEND_URL}/api/surveys/filter-by-email`,
       { email, institutionName }, // 👈 Include both email and institutionName in payload
       {
         headers: {

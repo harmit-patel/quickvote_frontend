@@ -3,7 +3,7 @@ export const createSurveyAPI = async (surveyData) => {
   const token = localStorage.getItem("token"); // Get JWT token from localStorage
   
   try {
-    const response = await fetch("${import.meta.env.VITE_BACKEND_URL}/api/surveys", {
+    const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/surveys`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -30,7 +30,7 @@ export const fetchFixedDomainAPI = async (adminEmail) => {
   const token = localStorage.getItem("token");
   
   try {
-    const response = await fetch("${import.meta.env.VITE_BACKEND_URL}/api/admins/getFixedDomain", {
+    const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/admins/getFixedDomain`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

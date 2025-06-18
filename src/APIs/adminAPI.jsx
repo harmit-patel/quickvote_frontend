@@ -1,6 +1,6 @@
 export const loginAdmin = async (email, password) => {
   try {
-    const response = await fetch("${import.meta.env.VITE_BACKEND_URL}/api/admins/login", {
+    const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/admins/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

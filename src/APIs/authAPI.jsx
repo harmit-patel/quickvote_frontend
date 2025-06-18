@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "${import.meta.env.VITE_BACKEND_URL}/auth";
+const API_BASE_URL = `${import.meta.env.VITE_BACKEND_URL}/auth`;
 
 export const sendOtp = async (email) => {
   try {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const getInstitute = async () => {
-  const response = await axios.get("${import.meta.env.VITE_BACKEND_URL}/auth/getInstitute");
+  const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/auth/getInstitute`);
 
   // Clean and transform the data
   const cleaned = response.data

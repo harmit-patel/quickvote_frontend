@@ -24,7 +24,7 @@ export const fetchSurveyResultsAPI = async (surveyId) => {
 
   try {
     const response = await axios.post(
-      "${import.meta.env.VITE_BACKEND_URL}/api/survey-results/results",
+      `${import.meta.env.VITE_BACKEND_URL}/api/survey-results/results`,
       { surveyId },
       {
         headers: {
@@ -57,7 +57,7 @@ export const fetchUserResponsesAPI = async (surveyId) => {
 
   try {
     const response = await axios.post(
-      "${import.meta.env.VITE_BACKEND_URL}/api/responses/fetch",
+      `${import.meta.env.VITE_BACKEND_URL}/api/responses/fetch`,
       { surveyId, email },
       {
         headers: {
