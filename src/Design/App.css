@@ -1,0 +1,12 @@
+/* General Background Styling */
+
+
+body {
+  background-color: #f5efe7; /* A light, soft color */
+  background-image: url('https://www.transparenttextures.com/patterns/aztec-pattern.png');
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh; /* Ensure background covers entire screen */
+}
